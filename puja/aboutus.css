@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 228, 218);
+}
+
+header {
+    background-color: white;
+    color: rgb(32, 30, 30);
+    height: 20%;
+    
+    
+}
+
+nav {
+   
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.logo{
+    margin-right: 140px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(31, 30, 30);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575d63;
+}
+
+.follow{
+    margin-left: 150px;
+    display: flex;
+    gap: 14px;
+}
+
+.follow img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.main{
+    margin: 0;
+    background-image: url(./images/Untitled\ Project.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.about{
+    margin-left: 35%;
+    
+}
+
+.details{
+    display:flex;
+    align-items: center;
+    width: 70%;
+    gap: 50px;
+    margin-left: 30%;
+}
+
+ .d1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 400px;
+    
+}
+
+.lowerflex{
+   display: flex;
+}
+
+.p1{
+    width: 30%;
+}
+.p2{
+    width: 30%;
+}
+.p3{
+    width: 30%;
+}
+.d2{
+    width: 30%;
+    height: 400px;
+}
+
+.certificates{
+    display: flex;
+    gap: 30px;
+    align-content: center;
+    margin-left: 27%;
+}
+
+.c1 img{
+    height: 300px;
+    width: 200px;
+}
+footer {
+    background-color: #1062b4;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 30%;
+}
+
+.training{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.followus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.second{
+    display: flex;
+    width: 60%;
+    gap: 50px;
+    margin-left: 20%;
+}
+
+.missions{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 18px;
+    
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .follow {
+        margin: 10px 0;
+        justify-content: flex-start;
+    }
+
+    .main {
+        height: 300px;
+        background-position: center;
+    }
+
+    .about {
+        margin-left: 10%;
+    }
+
+    .details {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+        margin-left: 5%;
+    }
+
+    .d1, .d2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .p1, .p2, .p3 {
+        width: 100%;
+    }
+
+    .certificates {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .c1 img {
+        height: 200px;
+        width: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+    .second {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        gap: 20px;
+    }
+
+    .missions {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
